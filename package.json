@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yohanes799.github.io/News/",
+  "homepage": "https://yohanes799.github.io/NES-New/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
