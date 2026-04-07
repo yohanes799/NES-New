@@ -1,0 +1,134 @@
+.footer {
+  background-color: var(--footer-bg);
+  color: #a0aec0;
+  padding: 60px 0 40px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-col h4 {
+  color: var(--white);
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-info {
+  flex: 1.5;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+.footer-logo:hover {
+  color: var(--white);
+}
+
+.footer-logo-icon {
+  font-size: 28px;
+}
+
+.footer-logo-text {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.copyright {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.social-section h4 {
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  color: var(--white);
+  font-size: 18px;
+  transition: all 0.2s ease;
+}
+
+.social-icons a:hover {
+  background-color: var(--primary-color);
+}
+
+.footer-links ul li {
+  margin-bottom: 12px;
+}
+
+.footer-links ul li a {
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-links ul li a:hover {
+  color: var(--white);
+}
+
+.subscribe-form {
+  display: flex;
+  background-color: var(--white);
+  border-radius: 4px;
+  overflow: hidden;
+  height: 40px;
+}
+
+.subscribe-form input {
+  flex: 1;
+  border: none;
+  padding: 0 15px;
+  outline: none;
+  font-size: 14px;
+  color: var(--text-dark);
+}
+
+.btn-subscribe {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-subscribe:hover {
+  background-color: var(--primary-dark);
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
